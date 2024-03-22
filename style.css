@@ -1,0 +1,40 @@
+button{
+    transition: 0.2s;
+    color:white;
+    background-color: blue;
+    width: 200px; 
+    height: 30px; 
+    border-radius: 5px; 
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+button:hover{
+     height: 35px;
+     width: 210px;
+     color: black;
+     background-color: orangered;
+    font-weight: bold;
+}
+
+#compare{
+    
+    height: 45px;
+    width: 180px;
+    margin-top: 6px;
+    margin-left: 55px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: bold; 
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0.5px solid brown;
+    transition: 0.3s;
+}
+
+#compare:hover{
+    font-size: 20px;
+}
